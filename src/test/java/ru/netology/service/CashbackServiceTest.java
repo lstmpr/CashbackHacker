@@ -20,18 +20,18 @@ public class CashbackServiceTest {
 
     }
 
-    @Test
-    public void shouldRemain0Amount1000() {
-        CashbackService service = new CashbackService();
-
-        int amount = 1000;
-
-        int actual = service.remain(amount);
-        int expected = 0;
-
-        assertEquals(expected, actual);
-
-    }
+//    @Test
+//    public void shouldRemain0Amount1000() {
+//        CashbackService service = new CashbackService();
+//
+//        int amount = 1000;
+//
+//        int actual = service.remain(amount);
+//        int expected = 0;
+//
+//        assertEquals(expected, actual);
+//
+//    }
 
     @Test
     public void shouldRemain300Amount1700() {
