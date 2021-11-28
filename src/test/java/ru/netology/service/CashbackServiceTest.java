@@ -58,7 +58,6 @@ public class CashbackServiceTest {
         assertEquals(expected, actual);
 
     }
-
     @Test
     public void shouldRemain999Amount1001() {
         CashbackService service = new CashbackService();
